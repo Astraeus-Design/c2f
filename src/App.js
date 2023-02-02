@@ -14,10 +14,7 @@ function App(){
 
   const [ monsters, updateMonsters] = useState([]);
   const [ searchField, updateSearchField] = useState('');
-  const [ initArray,setInitStatus]= useState(true);
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+
   let filterMonsters=[];    
   const url="https://jsonplaceholder.typicode.com/users";  // monsters url
   
